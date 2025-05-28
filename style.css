@@ -72,7 +72,7 @@ header .container {
 
   /* Hero Section */
 .hero {
-    background: url("imagenes/fondo-n2.png") no-repeat center center/cover;
+    background: url("imágenes/fondo-n2.png") no-repeat center center/cover;
     color: white;
     padding: 100px 0;
     text-align: center;
@@ -147,19 +147,19 @@ header .container {
 }
 
 .card-1:hover{
-    background-image: url("imagenes/IMG-20250522-WA0028.jpg");
+    background-image: url("imágenes/IMG-20250522-WA0028.jpg");
     background-size: cover;
     background-position:  center;
 }
 
 .card-2:hover{
-    background-image: url("imagenes/IMG-20250522-WA0049.jpg");
+    background-image: url("imágenes/IMG-20250522-WA0049.jpg");
     background-size: cover;
     background-position:  bottom center;
 }
 
 .card-3:hover{
-    background-image:url("imagenes/IMG-20250522-WA0037.jpg");
+    background-image:url("imágenes/IMG-20250522-WA0037.jpg");
     background-size:cover;
     background-position: center;
 }
