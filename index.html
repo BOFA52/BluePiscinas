@@ -1,122 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Blue Piscinas</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#062b45" />
+  <meta name="description" content="Construcción, mantenimiento y reparación de piscinas. Calidad y experiencia para hacer realidad tu proyecto." />
+  <title>Blue Piscinas | Construcción y mantenimiento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <!----------------------------Header/Menu----------------------------------->
-<header>
-    <div class="container">
-    <h1 class="logo"><img src="imagenes/Logo-Blue-Psicnas-Photoroom.png" class="logo" alt="logo de blue piscinas"></h1>
-    <nav>
-        <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#galeria">Galería</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Blue Piscinas, inicio">
+        <img src="imagenes/Logo-Blue-Psicnas-Photoroom.png" class="logo" alt="Logo de Blue Piscinas" />
+        <span>BLUE<span class="brand-accent">PISCINAS</span></span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Proyectos</a></li>
+          <li><a href="#testimonios">Referencias</a></li>
+          <li><a class="nav-cta" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a></li>
         </ul>
-    </nav>
+      </nav>
     </div>
-</header>
-    <!--------------------------------Inicio----------------------------------->
-<section id="inicio" class="hero">
-    <div class="container">
-    <h2>Expertos en construcción y mantenimiento de piscinas</h2>
-    <p>Calidad, confianza y años de experiencia</p>
-    <a href="#contacto" class="btn">Contáctanos</a>
-    </div>
-</section>
-    <!--------------------------------Servicios------------------------------->
-<section id="servicios" class="services">
-    <div class="container">
-    <h2>Servicios</h2>
-    <div class="cards">
-        <div class="card card-1">
-        <h2>Construcción de Piscinas, Casas y Sueños </h2>
-        <p>Diseño y construcción a medida.</p>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span></span> DISEÑO · CONSTRUCCIÓN · CUIDADO</p>
+        <h1>Tu espacio ideal<br />comienza con <em>agua.</em></h1>
+        <p class="hero-copy">Diseñamos, construimos y cuidamos piscinas pensadas para disfrutar durante años.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="button button-light">Cuéntanos tu proyecto <span aria-hidden="true">↗</span></a>
+          <a href="#servicios" class="text-link">Conoce nuestros servicios <span aria-hidden="true">↓</span></a>
         </div>
-        <div class="card card-2">
-        <h2>Mantenimiento</h2>
-        <p>Revisión, limpieza y productos.</p>
+      </div>
+      <div class="hero-note">BLUE PISCINAS <span>·</span> EXPERIENCIA QUE SE NOTA</div>
+    </section>
+
+    <section id="servicios" class="section services-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow eyebrow-dark">LO QUE HACEMOS</p><h2>Soluciones completas,<br /><em>resultados duraderos.</em></h2></div>
+          <p class="section-intro">Te acompañamos desde la primera idea hasta el mantenimiento de cada detalle.</p>
         </div>
-        <div class="card card-3">
-        <h2>Reparaciones</h2>
-        <p>Detección de fugas, recubrimientos y más.</p>
+        <div class="cards">
+          <article class="card card-1"><span class="card-number">01</span><div class="card-content"><p class="card-label">CREAMOS</p><h3>Construcción a medida</h3><p>Piscinas, casas y espacios hechos alrededor de tu visión y tu estilo de vida.</p><a href="#contacto" aria-label="Consultar sobre construcción">↗</a></div></article>
+          <article class="card card-2"><span class="card-number">02</span><div class="card-content"><p class="card-label">CUIDAMOS</p><h3>Mantenimiento</h3><p>Revisión, limpieza y asesoría para que tu piscina esté siempre lista.</p><a href="#contacto" aria-label="Consultar sobre mantenimiento">↗</a></div></article>
+          <article class="card card-3"><span class="card-number">03</span><div class="card-content"><p class="card-label">RENOVAMOS</p><h3>Reparaciones</h3><p>Detectamos fugas, recuperamos recubrimientos y resolvemos cada detalle.</p><a href="#contacto" aria-label="Consultar sobre reparaciones">↗</a></div></article>
         </div>
-    </div>
-    </div>
-</section>
-    <!---------------------------------Galeria--------------------------------------->
-<section id="galeria" class="gallery">
-    <div class="container">
-    <h2>Galería</h2>
-    <div class="images">
-        <img src="imagenes/piscina-1.jpg" alt="Piscina 1"  loading="lazy"/>
-        <img src="imagenes/piscina-2.jpg" alt="Piscina 2" loading="lazy" />
-        <img src="imagenes/psicina-3.jpg" alt="Piscina 3" loading="lazy" />
-        <img src="imagenes/piscina-4.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0021.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0023.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0024.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0025.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0026.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0028.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0029.jpg" alt="Piscina 4" loading="lazy" />
-        <img src="imagenes/IMG-20250522-WA0034.jpg" alt="Piscina 4" loading="lazy" />
-    </div>
-    </div>
-</section>
-<!------------------------------------------Testimonios----------------------------------->
-<section id="testimonios" class="testimonios">
-<h2>Algunos de nuestros Referidos </h2>
+      </div>
+    </section>
 
-<div class="testimonios-container">
-    <div class="testimonio">
-    <p>Construccion de tanque de almacenamiento de agua, Mesa de los Santos</p>
-    <h4>— Diego aldemar, Tlf:3103311417</h4>
-    </div>
+    <section id="galeria" class="section gallery-section">
+      <div class="container">
+        <div class="section-heading gallery-heading"><div><p class="eyebrow eyebrow-dark">TRABAJO REAL</p><h2>Ideas que se hacen <em>realidad.</em></h2></div><p class="section-intro">Cada proyecto refleja nuestro compromiso con la calidad y los buenos acabados.</p></div>
+        <div class="images">
+          <img src="imagenes/piscina-1.jpg" alt="Piscina construida por Blue Piscinas" loading="lazy" />
+          <img src="imagenes/piscina-2.jpg" alt="Proyecto de piscina" loading="lazy" />
+          <img src="imagenes/psicina-3.jpg" alt="Piscina en un entorno residencial" loading="lazy" />
+          <img src="imagenes/piscina-4.jpg" alt="Detalle de proyecto de piscina" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0021.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0023.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0024.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0025.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0026.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0028.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0029.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+          <img src="imagenes/IMG-20250522-WA0034.jpg" alt="Proyecto Blue Piscinas" loading="lazy" />
+        </div>
+      </div>
+    </section>
 
-    <div class="testimonio">
-    <p>Construccion de piscina, Mesa de los santos </p>
-    <h4>— Luz remolina, Tlf:3108572537</h4>
-    </div>
+    <section id="testimonios" class="testimonials-section">
+      <div class="container testimonials-inner">
+        <div class="testimonial-title"><p class="eyebrow">LA CONFIANZA SE CONSTRUYE</p><h2>Lo que dicen quienes ya trabajaron con nosotros.</h2><p>Proyectos hechos con dedicación, recomendados por nuestros clientes.</p></div>
+        <div class="testimonios-container">
+          <article class="testimonio"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><p>“Construcción de tanque de almacenamiento de agua en Mesa de los Santos.”</p><h3>Diego Aldemar</h3><a href="tel:3103311417">310 331 1417</a></article>
+          <article class="testimonio"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><p>“Construcción de piscina en Mesa de los Santos.”</p><h3>Luz Remolina</h3><a href="tel:3108572537">310 857 2537</a></article>
+          <article class="testimonio"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><p>“Construcción de piscina y jacuzzi en Mesa de los Santos.”</p><h3>Doctor Víctor Manuel</h3><a href="tel:30020071980">300 200 71980</a></article>
+        </div>
+      </div>
+    </section>
 
-    <div class="testimonio">
-    <p>Construccion de Piscina y jacuzzi , Mesa de los Santos</p>
-    <h4>— Doctor Victor Manuel, Tlf:30020071980</h4>
-    </div>
-</div>
-</section>
-<!---------------------------------------FORM/CONTACTO------------------------------------------->
-<section id="contacto" class="contact">
-    <div class="container">
-    <h2>Contáctanos</h2>
-    <form action="https://formsubmit.co/oscarbuenoalmeida2003@gmail.com" method="POST">
-    <label for="nombre">Nombre</label>
-    <input type="text" name="nombre" id="nombre" required placeholder=" Ejmplo: Oscar Bueno">
-    <label for="correo">Tu correo</label>
-    <input type="email" name="correo" id="correo" required placeholder="ejmplo:bueno@gmail.com">
-    <label for="mensaje">Mensaje</label>
-    <textarea name="mensaje" id="mensaje" required placeholder="deja tu comentario"></textarea>
-    <button type="submit">Enviar</button>
+    <section id="contacto" class="contact-section">
+      <div class="container contact-layout">
+        <div class="contact-copy"><p class="eyebrow">EL SIGUIENTE PASO</p><h2>Hagamos realidad<br /><em>tu proyecto.</em></h2><p>Cuéntanos qué tienes en mente. Estamos listos para asesorarte.</p><a class="whatsapp-link" href="https://wa.me/573163296713?text=Hola%20quiero%20asesoramiento" target="_blank" rel="noopener noreferrer"><img src="imagenes/logo_15713434.png" alt="" /> También puedes escribirnos por WhatsApp <span aria-hidden="true">↗</span></a></div>
+        <form class="contact-form" action="https://formsubmit.co/oscarbuenoalmeida2003@gmail.com" method="POST">
+          <label for="nombre">Tu nombre</label><input type="text" name="nombre" id="nombre" required autocomplete="name" placeholder="Ejemplo: Oscar Bueno" />
+          <label for="correo">Correo electrónico</label><input type="email" name="correo" id="correo" required autocomplete="email" placeholder="nombre@correo.com" />
+          <label for="mensaje">¿Cómo podemos ayudarte?</label><textarea name="mensaje" id="mensaje" required rows="4" placeholder="Cuéntanos brevemente sobre tu proyecto"></textarea>
+          <input type="hidden" name="_next" value="https://tupagina.com/gracias.html" />
+          <input type="hidden" name="_captcha" value="false" />
+          <button class="button button-submit" type="submit">Enviar mensaje <span aria-hidden="true">↗</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-    <!-- Opcional: redireccionar o evitar spam -->
-    <input type="hidden" name="_next" value="https://tupagina.com/gracias.html">
-    <input type="hidden" name="_captcha" value="false">
-    </form>
-    <p><a href="https://wa.me/573163296713?text=Hola%20quiero%20asesoramiento" target="_blank"><img src="imagenes/logo_15713434.png" class="logo" alt="foto del logo de whatsapp"></a></p>
-    </div>
-</section>
-    <!---------------------------------Footer------------------------------------------>
-<footer>
-    <div class="container">
-    <p>&copy; 2025 Blue Piscinas. Todos los derechos reservados.</p>
-    </div>
-</footer>-
-
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="#inicio">BLUE<span>PISCINAS</span></a><p>Construimos espacios para disfrutar.</p><small>© 2025 Blue Piscinas. Todos los derechos reservados.</small><a class="back-top" href="#inicio">Volver arriba ↑</a></div></footer>
 </body>
 </html>
